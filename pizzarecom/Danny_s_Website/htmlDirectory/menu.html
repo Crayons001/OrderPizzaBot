@@ -1,0 +1,499 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../static/favicon.ico">
+  <title>Danny's Pizzeria</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #2e4f2c;
+      color: #fff;
+    }
+
+    header {
+      background-color: #ffd89a;
+      color: #fff;
+      padding: 10px;
+      text-align: center;
+    }
+
+    nav {
+      background-color: #f5ba5e;
+      color: #fff;
+      padding: 10px;
+      text-align: right; 
+    }
+
+    nav a {
+      color: #2e4f2c;
+      font-weight: bold;
+      text-decoration: none;
+      margin: 0 10px;
+    }
+    h1{
+      color: #2e4f2c;
+    }
+    .container {
+      max-width: 1200px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #2e4f2c;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .menu-item {
+      display: flex;
+      justify-content: space-between;
+      border-bottom: 1px solid #ddd;
+      padding: 10px 0;
+    }
+
+    .menu-item img {
+      max-width: 100%;
+      max-height: 100px;
+      margin-right: 10px;
+    }
+
+    footer {
+      background-color: #f5ba5e;
+      color: #fff;
+      text-align: center;
+      padding: 10px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Danny's menu</h1>
+  </header>
+
+  <nav>
+    <a href="/">Home</a>
+    <a href="/menu.html"><b>Menu</b></a> 
+  </nav>
+
+  <div class="container">
+
+    <h2>Menu</h2>
+
+    <div class="menu-item">
+      <img src="../static/margherita.jpeg" alt="Pizza Margherita">
+      <div style="width: 500px;">
+        <h3>Margherita Pizza</h3>
+        <p>Tomato sauce, fresh mozzarella, basil.</p>
+        <label for="margherita-size">Select size:</label>
+        <select id="margherita-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="margherita-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+    <div class="menu-item">
+      <img src="../static/Pepperoni.jpeg" alt="Pepperoni Pizza">
+      <div style="width: 500px;">
+        <h3>Pepperoni Pizza</h3>
+        <p>Tomato sauce, mozzarella, pepperoni.</p>
+        <label for="pepperoni-size">Select size:</label>
+        <select id="pepperoni-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        <div id="pepperoni-price-display">Select a size to see the price.</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+     <img src="../static/hawaiian.jpg" alt="Pizza Hawaiian">
+      <div style="width: 500px;" >
+        <h3>Hawaiian Pizza</h3>
+        <p>Tomato sauce, pineapples, bacon</p>
+        <label for="hawaiian-size">Select size:</label>
+        <select id="hawaiian-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="hawaiian-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+    
+    <div class="menu-item">
+      <img src="../static/mushroom.jpg" alt="mushroom">
+      <div style="width: 500px;">
+        <h3>Chicken Mushroom</h3>
+        <p>Tomato sauce, mushroom, chicken</p>
+        <label for="mushroom-size">Select size:</label>
+        <select id="mushroom-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="mushroom-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="../static/periperi.jpeg" alt="periperi">
+      <div style="width: 500px;">
+        <h3>Chicken Periperi</h3>
+        <p>Tomato sauce, chicken, bacon, chilli</p>
+        <label for="periperi-size">Select size:</label>
+        <select id="periperi-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="periperi-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+    
+
+    <div class="menu-item">
+      <img src="../static/borewors.jpg" alt="Borewores">
+      <div style="width: 500px;">
+        <h3>Borewors Pizza</h3>
+        <p>Tomato sauce, minced beef, bacon</p>
+        <label for="borewors-size">Select size:</label>
+        <select id="borewors-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="borewors-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="../static/tropical.jpg" alt="tropical">
+      <div style="width: 500px;">
+        <h3>Tropical Veg</h3>
+        <p>Green bell peppers, red onion, olives, pineapple, mushroom</p>
+        <label for="tropical-size">Select size:</label>
+        <select id="tropical-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        <div id="tropical-price-display">Select a size to see the price.</div>
+      </div>
+    </div>
+
+    <div class="menu-item">
+     <img src="../static/feta.jpg" alt="Feta Veg">
+      <div style="width: 500px;" >
+        <h3>Feta Veg</h3>
+        <p>Feta cheese, Green bell peppers, Red onion, mushroom</p>
+        <label for="feta-size">Select size:</label>
+        <select id="feta-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="feta-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+    
+    <div class="menu-item">
+      <img src="../static/veggie-lover.png" alt="veggie">
+      <div style="width: 500px;">
+        <h3>Veggie Lovers</h3>
+        <p>Green, red, yellow bell peppers, olives, mushroom</p>
+        <label for="veggie-size">Select size:</label>
+        <select id="veggie-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="veggie-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+
+    <div class="menu-item">
+      <img src="../static/cbbq.png" alt="Chicken BBQ">
+      <div style="width: 500px;">
+        <h3>Chicken BBQ</h3>
+        <p>Chicken, Red onion, BBQ sauce</p>
+        <label for="cbbq-size">Select size:</label>
+        <select id="cbbq-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="cbbq-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+    
+
+    <div class="menu-item">
+      <img src="../static/bbbq.png" alt="Beef BBQ">
+      <div style="width: 500px;">
+        <h3>Beef BBQ</h3>
+        <p>Beef, Red onion, BBQ sauce</p>
+        <label for="bbbq-size">Select size:</label>
+        <select id="bbbq-size" name="size">
+          <option value="small">Small</option>
+          <option value="medium">Medium</option>
+          <option value="large">Large</option>
+        </select>
+        
+        <div id="bbbq-price-display">Select a size to see the price.</div>
+       
+      </div>
+    </div>
+
+
+    
+
+    <script>
+        // JavaScript to handle size selection and display price
+        document.getElementById("margherita-size").addEventListener("change", function() {
+          var selectedSize = this.value;
+          var priceDisplay = document.getElementById("margherita-price-display");
+  
+          // Set prices based on selected size
+          var prices = {
+            small: 1100,
+            medium: 1250,
+            large: 1400
+          };
+  
+          // Display the selected size and price
+          priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+        });
+      </script>
+
+      <script>
+        // JavaScript to handle size selection and display price
+        document.getElementById("pepperoni-size").addEventListener("change", function() {
+          var selectedSize = this.value;
+          var priceDisplay = document.getElementById("pepperoni-price-display");
+  
+          // Set prices based on selected size
+          var prices = {
+            small: 1200,
+            medium: 1350,
+            large: 1500
+          };
+  
+          // Display the selected size and price
+          priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+        });
+      </script>
+            <script>
+              // JavaScript to handle size selection and display price
+              document.getElementById("hawaiian-size").addEventListener("change", function() {
+                var selectedSize = this.value;
+                var priceDisplay = document.getElementById("hawaiian-price-display");
+        
+                // Set prices based on selected size
+                var prices = {
+                  small: 700,
+                  medium: 850,
+                  large: 1000
+                };
+        
+                // Display the selected size and price
+                priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+              });
+            </script>
+                  <script>
+                    // JavaScript to handle size selection and display price
+                    document.getElementById("mushroom-size").addEventListener("change", function() {
+                      var selectedSize = this.value;
+                      var priceDisplay = document.getElementById("mushroom-price-display");
+              
+                      // Set prices based on selected size
+                      var prices = {
+                        small: 900,
+                        medium: 1050,
+                        large: 1200
+                      };
+              
+                      // Display the selected size and price
+                      priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                    });
+                  </script>
+                        <script>
+                          // JavaScript to handle size selection and display price
+                          document.getElementById("periperi-size").addEventListener("change", function() {
+                            var selectedSize = this.value;
+                            var priceDisplay = document.getElementById("periperi-price-display");
+                    
+                            // Set prices based on selected size
+                            var prices = {
+                              small: 800,
+                              medium: 950,
+                              large: 1100
+                            };
+                    
+                            // Display the selected size and price
+                            priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                          });
+                        </script>
+                              <script>
+                                // JavaScript to handle size selection and display price
+                                document.getElementById("vegeterian-size").addEventListener("change", function() {
+                                  var selectedSize = this.value;
+                                  var priceDisplay = document.getElementById("vegeterian-price-display");
+                          
+                                  // Set prices based on selected size
+                                  var prices = {
+                                    small: 600,
+                                    medium: 750,
+                                    large: 900
+                                  };
+                          
+                                  // Display the selected size and price
+                                  priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                });
+                              </script>
+                        
+                        <script>
+                          // JavaScript to handle size selection and display price
+                          document.getElementById("bbbq-size").addEventListener("change", function() {
+                            var selectedSize = this.value;
+                            var priceDisplay = document.getElementById("bbbq-price-display");
+                    
+                            // Set prices based on selected size
+                            var prices = {
+                              small: 1200,
+                              medium: 1350,
+                              large: 1500
+                            };
+                    
+                            // Display the selected size and price
+                            priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                          });
+                        </script>
+                              <script>
+                                // JavaScript to handle size selection and display price
+                                document.getElementById("cbbq-size").addEventListener("change", function() {
+                                  var selectedSize = this.value;
+                                  var priceDisplay = document.getElementById("cbbq-price-display");
+                          
+                                  // Set prices based on selected size
+                                  var prices = {
+                                    small: 700,
+                                    medium: 850,
+                                    large: 1000
+                                  };
+                          
+                                  // Display the selected size and price
+                                  priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                });
+                              </script>
+                                    <script>
+                                      // JavaScript to handle size selection and display price
+                                      document.getElementById("veggie-size").addEventListener("change", function() {
+                                        var selectedSize = this.value;
+                                        var priceDisplay = document.getElementById("veggie-price-display");
+                                
+                                        // Set prices based on selected size
+                                        var prices = {
+                                          small: 900,
+                                          medium: 1050,
+                                          large: 1200
+                                        };
+                                
+                                        // Display the selected size and price
+                                        priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                      });
+                                    </script>
+                                          <script>
+                                            // JavaScript to handle size selection and display price
+                                            document.getElementById("feta-size").addEventListener("change", function() {
+                                              var selectedSize = this.value;
+                                              var priceDisplay = document.getElementById("feta-price-display");
+                                      
+                                              // Set prices based on selected size
+                                              var prices = {
+                                                small: 800,
+                                                medium: 950,
+                                                large: 1100
+                                              };
+                                      
+                                              // Display the selected size and price
+                                              priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                            });
+                                          </script>
+                                                <script>
+                                                  // JavaScript to handle size selection and display price
+                                                  document.getElementById("tropical-size").addEventListener("change", function() {
+                                                    var selectedSize = this.value;
+                                                    var priceDisplay = document.getElementById("tropical-price-display");
+                                            
+                                                    // Set prices based on selected size
+                                                    var prices = {
+                                                      small: 600,
+                                                      medium: 750,
+                                                      large: 900
+                                                    };
+                                            
+                                                    // Display the selected size and price
+                                                    priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                                  });
+                                                </script>
+                        
+                                    <script>
+                                      // JavaScript to handle size selection and display price
+                                      document.getElementById("borewors-size").addEventListener("change", function() {
+                                        var selectedSize = this.value;
+                                        var priceDisplay = document.getElementById("borewors-price-display");
+                                
+                                        // Set prices based on selected size
+                                        var prices = {
+                                          small: 1000,
+                                          medium: 1150,
+                                          large: 1300
+                                        };
+                                
+                                        // Display the selected size and price
+                                        priceDisplay.textContent = "Price for " + selectedSize + ": KSH " + prices[selectedSize];
+                                      });
+                                    </script>
+
+  </div>
+
+  <footer style="color: #2e4f2c; font-weight: bold;">
+    &copy; 2024 Danny's Place.
+  </footer>
+
+</body>
+</html>
+

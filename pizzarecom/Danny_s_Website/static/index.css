@@ -1,0 +1,210 @@
+body {
+  /* Set background properties */
+  background-image: url('Screenshot (72).png'); /* Replace with the path to your image */
+  background-size: cover; /* This property ensures the background image covers the entire screen */
+  background-repeat: no-repeat; /* Prevent the background image from repeating */
+  background-position: center center; /* Center the background image */
+  background-attachment: fixed; /* Fixed background when scrolling */
+  /* Additional styles if needed */
+  margin: 0; /* Remove default body margin */
+  padding: 0; /* Remove default body padding */
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end; /* Align items to the end (right) */
+  padding: 80px;
+} 
+a {
+  text-decoration: none;
+  font-family: 'Rosario';
+  font-size: larger;
+  color: #2E4F2C;
+} 
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px; /* Adjust as needed */
+}
+
+.menu-item h3{
+  font-family: 'Fantasy';
+  color: rgb(228, 187, 133);
+}
+
+p {
+  font-style: oblique;
+  color: rgb(82, 48, 5);
+  font-size: 18px;
+  font-weight:800;
+}
+
+@keyframes slideInRight {
+  from{
+    transform: translateX(-100px);
+  }
+  to{
+    transform: translateX(0);
+  }
+  
+}
+
+.pizzaguyimg{
+  width: 18%;
+  position: absolute;
+  bottom: 0;
+  right: 0; 
+  animation: slideInRight 7s ease-in 0s infinite reverse both;
+}
+
+.request{
+  width: 400px;
+  height: 350px;
+  position: absolute;
+  top: 18%;
+  left: 40%; 
+  border: 1px solid #2E4F2C;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 8px
+}
+
+.request2 {
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  top: 10%;
+  left: 36%; 
+  border: 1px solid #2E4F2C;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 8px
+}
+.request3 {
+  width: 500px;
+  height: 650px;
+  position: absolute;
+  top: 5%;
+  left: 36%; 
+  border: 1px solid #2E4F2C;
+  border-radius: 5px;
+  background-color: #fff;
+  padding: 8px
+}
+
+
+button{
+  padding: 10px;
+  border-radius: 10px;
+  border: 0;
+  background-color: #2E4F2C;
+  color: antiquewhite;
+  font-weight: bold;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+/*PREFERENCE FORM*/
+#applicationform {
+  margin-top: 80px;
+  width: 50%; /* 80% of the viewport's width */
+  height: 50%;
+  background-color: rgb(228, 187, 133); /* A light gray for form's background */
+  padding: 20px;
+  position: fixed; 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow-y: auto; /* Allows scrolling if the content overflows */
+}
+#applicationform input, #applicationform textarea{
+  width: 50%;
+  height: 50%;
+  border-radius: 3px;
+  
+}
+#applicationform input:placeholder-shown, textarea:placeholder-shown, input, textarea{
+  padding-left: 10px;
+  font-size: 1rem;
+  color: black;
+}
+
+
+.login-box {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  height: auto;
+  width: 60%;
+  padding: 40px;
+  transform: translate(-50%, -10%);
+  background: rgba(0,0,0,.5);
+  box-sizing: border-box;
+  box-shadow: 0 15px 25px rgba(0,0,0,.6);
+  border-radius: 10px;
+}
+
+.login-box h2 {
+  margin: 0 0 40px;
+  padding: 0;
+  color: #b6a765;
+  text-align: center;
+}
+
+.login-box h3 {
+  margin: 0 0 20px;
+  padding: 0;
+  color: #fff;
+  text-align: left;
+}
+
+.login-box h4 {
+  margin: 0 0 10px;
+  color: #2E4F2C;
+  text-align: left;
+}
+
+.login-box input[type="SUBMIT"] {
+  width: 150px; 
+}
+.login-box .user-box {
+  position: relative;
+}
+
+.login-box .user-box input {
+  
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  margin-bottom: 30px;
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  background: transparent;
+}
+.login-box .user-box label {
+  position: absolute;
+  top:0;
+  left: 0;
+  padding: 10px 0;
+  font-size: 16px;
+  color: #fff;
+  pointer-events: none;
+  
+}
+
+/* .bot {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+} */

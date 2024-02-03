@@ -1,0 +1,216 @@
+ID,Vegeterian?,Meat?,Mushroom?,Pineapple?,Onion?,Chilli?,Pepperoni?,Olives?,Peppers?,Sausage?,Feta Cheese?,Pizza 
+1,No,Both,Yes,Yes,No,No,Yes,None,Yes,No,No,Peperoni
+2,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yeses,Yes,No,Yes,Veggie Lovers
+3,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+4,No,Both,Yes,No,No,No,Yes,Yes,No,No,Yes,Chicken Mushroom
+5,No,Beef,Yes,Yes,No,Yes,No,None,Yes,Yes,No,Feta Veg
+6,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+7,No,Chicken,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+8,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+9,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+10,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Tropical Veg
+11,No,Beef,No,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Peperoni
+12,No,Chicken,Yes,No,Yes,No,Yes,None,Yes,Yes,Yes,Chicken Mushroom
+13,No,Both,Yes,No,Yes,No,Yes,None,Yes,Yes,Yes,Meat Lovers
+14,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Boerewors
+15,No,Both,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,BBQ Beef
+16,No,Chicken,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Meat Lovers
+17,No,Both,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Boerewors
+18,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+19,No,Both,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Boerewors
+20,Yes,Vegetarian,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Feta Veg
+21,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+22,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+23,No,Both,No,No,No,No,No,None,Yes,No,No,Chicken BBQ
+24,No,Both,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Boerewors
+25,No,Beef,No,No,No,Yes,Yes,None,No,No,No,Peperoni
+26,Yes,Vegetarian,No,No,No,Yes,No,None,No,No,No,Veggie Lovers
+27,No,Chicken,Yes,No,Yes,Yes,No,Yes,No,Yes,Yes,Chicken Perperi
+28,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+29,No,Chicken,Yes,Yes,No,Yes,No,Yes,Yes,No,Yes,Hawaiian
+30,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+31,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+32,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+33,No,Both,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+34,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+35,Yes,Vegetarian,No,No,No,No,No,Yes,No,No,Yes,Tropica Veg
+36,No,Chicken,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Peperoni
+37,No,Chicken,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Chicken Mushroom
+38,No,Beef,Yes,Yes,Yes,No,No,Yes,No,Yes,Yes,Meat Lovers
+39,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+40,No,Chicken,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+41,No,Chicken,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Hawaiian
+42,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+43,No,Beef,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,BBQ Beef
+44,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Feta Veg
+45,No,Chicken,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Feta Veg
+46,No,Beef,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Chicken BBQ
+47,No,Chicken,No,Yes,Yes,Yes,Yes,Yes,No,No,No,Peperoni
+48,No,Beef,No,Yes,Yes,Yes,No,Yes,No,Yes,Yes,BBQ Beef
+49,No,Chicken,No,No,Yes,Yes,No,Yes,Yes,No,No,Feta Veg
+50,No,Chicken,No,No,No,No,Yes,None,No,No,No,Peperoni
+51,No,Beef,No,No,Yes,Yes,No,Yes,No,No,No,BBQ Beef
+52,Yes,Vegetarian,No,No,No,No,No,Yes,Yes,No,No,Veggie Lovers
+53,No,Chicken,No,No,Yes,No,No,Yes,Yes,No,Yes,Chicken BBQ
+54,No,Both,No,No,No,No,No,Yes,No,No,No,Hawaiian
+55,No,Chicken,No,No,Yes,Yes,No,Yes,Yes,Yes,No,Chicken BBQ
+56,No,Chicken,Yes,Yes,No,Yes,Yes,None,Yes,Yes,Yes,Chicken Periperi
+57,Yes,Vegetarian,No,No,No,No,No,Yes,Yes,No,Yes,Tropical Veg
+58,No,Chicken,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Hawaiian
+59,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Hawaiian
+60,No,Chicken,Yes,No,Yes,No,No,Yes,Yes,Yes,Yes,Chicken BBQ
+61,No,Chicken,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Hawaiian
+62,No,Both,No,Yes,Yes,No,Yes,None,Yes,No,Yes,Chicken Mushroom
+63,No,Both,No,Yes,No,No,Yes,None,No,No,No,Peperoni
+64,No,Beef,No,Yes,No,No,No,None,No,No,Yes,Chicken Mushroom
+65,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Boerewors
+66,No,Chicken,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Chicken Periperi
+67,No,Chicken,No,No,No,No,Yes,Yes,Yes,No,Yes,Peperoni
+68,No,Chicken,No,No,No,Yes,Yes,Yes,Yes,No,Yes,Chicken BBQ
+69,No,Chicken,No,No,Yes,No,No,Yes,Yes,No,Yes,Feta Veg
+70,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+71,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+72,No,Chicken,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Peperoni
+73,No,Both,Yes,Yes,No,No,Yes,None,Yes,Yes,Yes,Boerewors
+74,No,Both,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Hawaiian
+75,No,Both,No,Yes,No,Yes,No,None,Yes,No,Yes,Hawaiian
+76,No,Both,Yes,No,No,No,No,None,Yes,Yes,Yes,Meat Lovers
+77,No,Chicken,Yes,Yes,No,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+78,No,Beef,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,BBQ Beef
+79,No,Chicken,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+80,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+81,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Hawaiian
+82,No,Both,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Boerewors
+83,Yes,Vegetarian,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Feta Veg
+84,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+85,No,Both,Yes,Yes,Yes,No,No,None,Yes,Yes,No,Boerewors
+86,No,Chicken,Yes,Yes,No,No,Yes,None,Yes,Yes,Yes,Hawaiian
+87,No,Both,Yes,Yes,Yes,No,Yes,None,Yes,Yes,Yes,Boerewors
+88,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Boerewors
+89,No,Beef,Yes,Yes,Yes,Yes,Yes,None,Yes,No,Yes,BBQ Beef
+90,No,Both,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Hawaiian
+91,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+92,No,Both,No,Yes,Yes,No,No,Yes,No,Yes,Yes,Chicken Mushroom
+93,No,Chicken,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Chicken Mushroom
+94,No,Both,No,No,Yes,No,Yes,Yes,Yes,No,Yes,Peperoni
+95,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Veggie Lovers
+96,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Tropical Veg
+97,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,Yes,No,Boerewors
+98,No,Both,No,Yes,Yes,No,No,None,No,Yes,Yes,Boerewors
+99,No,Both,Yes,Yes,No,Yes,No,None,Yes,No,Yes,Chicken Mushroom
+100,No,Chicken,No,No,Yes,Yes,No,Yes,Yes,No,Yes,Feta Veg
+101,No,Both,Yes,Yes,No,Yes,No,Yes,Yes,Yes,Yes,BBQ Beef
+102,No,Both,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+103,No,Chicken,No,No,No,Yes,No,Yes,No,No,No,Peperoni
+104,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+105,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Peperoni
+106,No,Chicken,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Chicken Periperi
+107,No,Both,No,Yes,No,No,No,Yes,Yes,Yes,Yes,BBQ Beef
+108,No,Chicken,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Feta Veg
+109,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Peperoni
+110,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Hawaiian
+111,No,Both,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Hawaiian
+112,No,Chicken,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Chicken Periperi
+113,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+114,No,Chicken,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Hawaiian
+115,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+116,No,Both,No,No,No,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+117,No,Chicken,No,No,Yes,No,No,None,Yes,No,Yes,Chicken BBQ
+118,No,Beef,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Meat Lovers
+119,No,Both,Yes,Yes,Yes,No,No,Yes,No,No,Yes,Feta Veg
+120,No,Beef,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,BBQ Beef
+121,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+122,No,Both,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+123,No,Chicken,Yes,No,Yes,Yes,Yes,None,Yes,No,Yes,Chicken Mushroom
+124,No,Both,Yes,No,No,Yes,Yes,Yes,No,Yes,Yes,Boerewors
+125,No,Both,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Chicken Mushroom
+126,No,Beef,No,Yes,Yes,No,No,None,Yes,No,Yes,Meat Lovers
+127,No,Both,Yes,Yes,Yes,Yes,No,None,Yes,Yes,Yes,Boerewors
+128,No,Chicken,No,Yes,Yes,No,No,Yes,Yes,No,Yes,Feta Veg
+129,No,Chicken,No,No,Yes,No,No,None,Yes,Yes,Yes,Chicken BBQ
+130,No,Both,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Hawaiian
+131,No,Chicken,No,Yes,No,No,No,None,Yes,No,Yes,Hawaiian
+132,No,Both,No,Yes,No,No,Yes,None,Yes,No,Yes,Peperoni
+133,No,Chicken,Yes,No,Yes,Yes,Yes,Yes,Yes,Yes,Yes,Chicken Periperi
+134,No,Beef,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+135,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+136,No,Chicken,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Peperoni
+137,No,Beef,Yes,No,No,No,No,Yes,Yes,Yes,Yes,Meat Lovers
+138,Yes,Vegetarian,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Feta Veg
+139,No,Both,Yes,Yes,Yes,No,No,Yes,Yes,Yes,Yes,BBQ Beef
+140,No,Beef,No,No,No,Yes,No,Yes,No,Yes,No,Chicken BBQ
+141,No,Both,No,No,Yes,No,No,Yes,No,No,No,Feta Veg
+142,No,Both,No,Yes,Yes,No,No,Yes,No,No,No,Hawaiian
+143,No,Chicken,Yes,Yes,No,Yes,No,Yes,No,Yes,No,Boerewors
+144,No,Both,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Chicken BBQ
+145,No,Chicken,No,No,No,No,No,Yes,No,No,No,Feta Veg
+146,No,Chicken,No,No,Yes,Yes,Yes,Yes,No,No,No,Hawaiian
+147,No,Chicken,No,No,No,No,No,Yes,No,No,No,Chicken BBQ
+148,No,Chicken,No,No,No,No,No,Yes,No,No,No,Chicken BBQ
+149,Yes,Vegetarian,No,No,No,Yes,No,Yes,No,No,No,Feta veg
+150,No,Chicken,No,No,No,Yes,No,Yes,No,No,No,Chicken BBQ
+151,Yes,Vegetarian,No,No,Yes,Yes,No,Yes,No,No,No,Veggie Lovers
+152,Yes,Vegetarian,No,No,No,Yes,No,Yes,No,No,No,Tropical Veg
+153,Yes,Vegetarian,No,Yes,No,Yes,No,Yes,Yes,No,No,Chicken BBQ
+154,No,Chicken,No,Yes,No,Yes,No,Yes,No,No,No,Hawaiian
+155,No,Chicken,No,No,No,Yes,No,Yes,No,No,No,Magherita
+156,No,Chicken,No,No,No,Yes,No,None,Yes,No,No,Chicken Periperi
+157,No,Both,No,No,No,No,No,Yes,No,No,No,Magherita
+158,No,Chicken,No,No,Yes,Yes,No,Yes,No,No,No,Magherita
+159,No,Chicken,No,No,Yes,No,No,None,No,No,No,Magherita
+160,No,Chicken,No,Yes,No,No,No,Yes,Yes,No,No,Magherita
+161,No,Beef,No,Yes,Yes,No,Yes,Yes,Yes,No,No,BBQ Beef
+162,No,Both,No,No,Yes,Yes,No,Yes,Yes,Yes,Yes,Meat Lovers
+163,No,Chicken,No,Yes,Yes,No,Yes,Yes,Yes,No,No,Peperoni
+164,No,Chicken,No,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Hawaiian
+165,No,Chicken,Yes,Yes,Yes,Yes,Yes,Yes,Yes,No,No,Hawaiian
+166,No,Chicken,No,Yes,Yes,No,No,Yes,Yes,No,No,Magherita
+167,No,Chicken,No,No,Yes,Yes,No,Yes,Yes,No,No,Magherita
+168,No,Beef,No,No,No,Yes,Yes,Yes,Yes,No,No,Peperoni
+169,No,Chicken,No,No,No,Yes,No,Yes,No,No,No,Feta Veg
+170,No,Chicken,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Chicken Periperi
+171,No,Chicken,No,No,No,Yes,Yes,Yes,Yes,No,No,Peperoni
+172,No,Chicken,Yes,No,Yes,Yes,No,Yes,No,No,Yes,Chicken Mushroom
+173,Yes,Vegetarian,No,No,No,Yes,Yes,Yes,Yes,No,No,Feta Veg
+174,No,Chicken,No,No,Yes,Yes,No,Yes,Yes,No,No,Magherita
+175,No,Chicken,No,No,No,Yes,Yes,Yes,No,No,No,Peperoni
+176,No,Chicken,Yes,Yes,Yes,No,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+177,No,Chicken,No,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Magherita
+178,No,Both,Yes,Yes,No,Yes,Yes,Yes,Yes,No,Yes,Chicken Mushroom
+179,No,Chicken,Yes,No,Yes,No,Yes,Yes,No,Yes,Yes,Chicken Mushroom
+180,No,Chicken,Yes,No,Yes,No,Yes,Yes,Yes,Yes,Yes,Chicken Mushroom
+181,No,Both,Yes,No,No,No,Yes,Yes,Yes,Yes,Yes,BBQ Beef
+182,No,Both,No,No,Yes,No,No,Yes,Yes,Yes,Yes,Meat Lovers
+183,No,Chicken,Yes,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Chicken Periperi
+184,No,Both,Yes,Yes,Yes,No,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+185,No,Chicken,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Chicken Mushroom
+186,Yes,Vegetarian,No,Yes,Yes,Yes,No,Yes,Yes,No,Yes,Veggie Lovers
+187,No,Both,No,No,No,Yes,Yes,Yes,Yes,Yes,Yes,Meat Lovers
+188,No,Beef,Yes,Yes,No,No,Yes,Yes,Yes,Yes,Yes,Feta Veg
+189,No,Both,No,No,No,No,Yes,Yes,No,No,No,Meat Lovers
+190,No,Chicken,No,Yes,No,Yes,No,Yes,No,No,No,Magherita
+191,No,Both,No,No,No,Yes,No,Yes,Yes,Yes,Yes,Meat Lovers
+192,No,Chicken,No,No,No,No,No,Yes,No,No,Yes,Chicken BBQ
+193,No,Chicken,No,No,Yes,No,No,Yes,No,No,No,Boerewors
+194,No,Chicken,No,No,No,No,No,Yes,No,No,No,Feta Veg
+195,No,Chicken,No,Yes,No,No,Yes,None,No,No,No,Hawaiian
+196,No,Chicken,Yes,No,No,No,No,Yes,No,No,Yes,Boerewors
+197,No,Chicken,Yes,No,Yes,Yes,Yes,None,Yes,No,No,Chicken Mushroom
+198,No,Chicken,No,No,No,Yes,Yes,Yes,No,No,Yes,Peperoni
+199,No,Chicken,No,Yes,Yes,No,No,Yes,No,No,Yes,Hawaiian
+200,No,Chicken,Yes,No,Yes,No,No,Yes,Yes,No,Yes,Chicken Mushroom
+201,Yes,Beef,Yes,Yes,Yes,No,No,No,Yes,No,Yes
+201,Yes,Beef,Yes,Yes,Yes,No,No,No,Yes,No,Yes
+201,Yes,Beef,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+202,Yes,Beef,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+203,Yes,Beef,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+204,Yes,Chicken,No,Yes,No,Yes,No,No,Yes,No,Yes
+205,Yes,Beef,Yes,No,Yes,No,Yes,No,Yes,Yes,Yes
+206,Yes,Beef,No,Yes,No,Yes,No,Yes,No,Yes,Yes
+207,Yes,Beef,Yes,No,No,Yes,No,Yes,No,No,Yes
+208,Yes,Beef,Yes,No,Yes,No,Yes,No,Yes,No,Yes
+209,No,Both,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No
+210,No,Both,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No
+211,No,Both,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No
+212,No,Chicken,Yes,Yes,No,No,Yes,Yes,No,Yes,No
+213,No,Beef,Yes,Yes,Yes,No,Yes,Yes,No,Yes,No

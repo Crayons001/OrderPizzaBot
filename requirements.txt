@@ -1,0 +1,9 @@
+python-multipart
+pandas
+numpy
+pydantic
+csv
+operator
+fastapi
+jinja2
+scipy

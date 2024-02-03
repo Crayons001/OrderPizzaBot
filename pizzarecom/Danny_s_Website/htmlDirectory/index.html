@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DANNY'S PIZZERIA</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="icon" href="../static/favicon.ico"> <!-- Make a website icon -->
+        <link rel="stylesheet" type="text/css" href="{{ url_for('static', path='/index.css')}}">
+        
+    </head>
+    <body>
+        <nav>
+            <ul>     
+                <li><a href="/"><b>Home</b></a> </li>   
+                <li><a href="/menu.html"><b>Menu</b></a> </li>
+                <li><a href="/order.html"><b>Order</b></a> </li>
+            </ul>
+        </nav>
+
+        <img  class="../pizzaguyimg" src="../static/pizzaguy.png" alt="pizzaguy">
+        <div class="request" id = "full_div">
+            <h2>Welcome to Danny's Pizzeria!</h2>
+            <div id = "click_recom">
+                <p>Not sure what to order?</p>
+                <p>Fill this simple form to get a pizza recommendation</p>
+                <button class="applynow">Get Recommendation</button>
+                <p>Otherwise, click the button below to order using our chatbot ;)</p>
+                <button class="ordernow">Order Now</button>
+            </div>
+            <div id="recommendationDiv" style="display: none;">
+                <p id="recommendationText"></p>
+                <p>Order using our chatbot below :)</p>
+            </div>      
+            <div id = 'bot' class="bot" style="display: none;">
+                <iframe width="500" height="500" allow="microphone;" src="https://console.dialogflow.com/api-client/demo/embedded/8453ae70-d498-4193-8292-8cd070f0b219"></iframe>
+            </div>  
+        </div>
+        <div id="applicationform" style="display: none;">  
+            <div class="login-box">
+                <h2>Pizza Preferences</h2>
+                <form action="/submitform" method="post" >
+                    <label><h3>Are you vegetarian?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Vegetarian" id="VegetarianYes" value="Yes" required >
+                        <label class="form-check-label" for="VegetarianYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Vegetarian" id="VegetarianNo" value="No" required >
+                        <label class="form-check-label" for="VegetarianNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>What meat protein do you prefer?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Meat" id="meatProteinChicken" value="Chicken" required>
+                        <label class="form-check-label" for="meatProteinChicken"><h4>Chicken</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Meat" id="meatProteinBeef" value="Beef" required>
+                        <label class="form-check-label" for="meatProteinBeef"><h4>Beef</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Meat" id="meatProteinBoth" value="Both" required>
+                        <label class="form-check-label" for="meatProteinBoth"><h4>Both</h4></label>
+                    </div>
+
+                    <label><h3>Do you like mushroom on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Mushroom" id="mushroomYes" value="Yes" required >
+                        <label class="form-check-label" for="mushroomYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Mushroom" id="mushroomNo" value="No" required>
+                        <label class="form-check-label" for="mushroomNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like pineapple on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Pineapple" id="pineappleYes" value="Yes" required >
+                        <label class="form-check-label" for="pineappleYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Pineapple" id="pineappleNo" value="No" required>
+                        <label class="form-check-label" for="pineappleNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like red onion on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Onion" id="OnionYes" value="Yes" required >
+                        <label class="form-check-label" for="OnionYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Onion" id="OnionNo" value="No" required>
+                        <label class="form-check-label" for="OnionNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like chilli on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Chilli" id="chilliYes" value="Yes" required >
+                        <label class="form-check-label" for="chilliYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Chilli" id="chilliNo" value="No" required>
+                        <label class="form-check-label" for="chilliNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like pepperoni on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Pepperoni" id="pepperoniYes" value="Yes" required >
+                        <label class="form-check-label" for="pepperoniYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Pepperoni" id="pepperoniNo" value="No" required>
+                        <label class="form-check-label" for="pepperoniNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like olives on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Olives" id="olivesYes" value="Yes" required >
+                        <label class="form-check-label" for="olivesYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Olives" id="olivesNo" value="No" required>
+                        <label class="form-check-label" for="olivesNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like peppers on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Peppers" id="peppersYes" value="Yes" required >
+                        <label class="form-check-label" for="peppersYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Peppers" id="peppersNo" value="No" required>
+                        <label class="form-check-label" for="peppersNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like sausage on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sausage" id="sausageYes" value="Yes" required >
+                        <label class="form-check-label" for="sausageYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Sausage" id="sausageNo" value="No" required>
+                        <label class="form-check-label" for="sausageNo"><h4>No</h4></label>
+                    </div>
+
+                    <label><h3>Do you like feta cheese on your pizza?</h3></label>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Feta" id="fetaYes" value="Yes" required >
+                        <label class="form-check-label" for="fetaYes"><h4>Yes</h4></label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" name="Feta" id="fetaNo" value="No"required>
+                        <label class="form-check-label" for="fetaNo"><h4>No</h4></label>
+                    </div>                
+                    <input type="SUBMIT" value="Submit"><br>
+                    
+                </form>
+            </div>
+        </div>
+
+        <script>
+            /*APPLY NOW BUTTON*/
+            // Open the form when clicking the apply button
+            var buttons = document.querySelectorAll('.applynow');
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    event.stopPropagation(); // Prevent this click from being propagated up
+
+                    var form = document.getElementById('applicationform');
+                    if (form.style.display === "none" || form.style.display === "") {
+                        form.style.display = "block";
+                    } else {
+                        form.style.display = "none";
+                    }
+                });
+            });
+
+            var buttons = document.querySelectorAll('.ordernow');
+            buttons.forEach(function(button) {
+                button.addEventListener('click', function(event) {
+                    event.stopPropagation(); // Prevent this click from being propagated up
+
+                    var fullDivElement = document.getElementById('full_div');
+                    fullDivElement.className = 'request2';
+
+                    var chatbot = document.getElementById('bot');
+                    document.getElementById('click_recom').style.display = "none";
+                    chatbot.style.display = 'block'
+                });
+            });
+
+            // Close the form when clicking outside of it
+            document.addEventListener('click', function(event) {
+                var form = document.getElementById('applicationform');
+
+                // Check if the clicked element is the form or a child of the form
+                if (!form.contains(event.target) && !event.target.classList.contains('applynow')) {
+                    form.style.display = "none";
+                }
+            });
+
+            // Prevent event propagation when clicking on the form so it doesn't close itself
+            document.getElementById('applicationform').addEventListener('click', function(event) {
+                event.stopPropagation();
+            });
+
+            document.addEventListener('DOMContentLoaded', function() {
+                var recommendationPizza = sessionStorage.getItem('recommendationPizza');
+                if (recommendationPizza !== null) {
+                    document.getElementById('applicationform').style.display = "none"
+                    document.getElementById('click_recom').style.display = "none";
+                    document.getElementById('recommendationDiv').style.display = "block";
+                    document.getElementById('bot').style.display = "block";
+                    document.getElementById('recommendationText').innerText = "Your recommended pizza is " + recommendationPizza;
+                    var fullDivElement = document.getElementById('full_div');
+                    fullDivElement.className = 'request3';
+                }
+            });
+        </script>
+    </body>
+</html>

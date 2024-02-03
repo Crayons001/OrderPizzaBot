@@ -1,0 +1,45 @@
+.bot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+.bot-iframe {
+    width: 300px;
+    height: 300px
+}
+
+body {
+    /*background-color:  #27445C ;*/
+    background-image: url('Screenshot (72).png');
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position: center center; 
+    background-attachment: fixed;
+    margin: 0; 
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end; /* Align items to the end (right) */
+    padding: 60px;
+} 
+a {
+    text-decoration: none;
+    font-family: 'Rosario';
+    font-size: larger;
+    color: #2E4F2C;
+} 
+
+ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+li {
+    margin-left: 20px; /* Adjust as needed */
+}
